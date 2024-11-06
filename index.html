@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is my event landing page for assignment 02. ">
+    <meta name="keywords" content="assignment position layout float nav font z-index transition transform img figure article">
+    <meta name="author" content="Connor Ogilvy">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Event Landing Page</title>
+</head>
+<body>
+    <nav id="navBar">
+        <a class="navLogo" href="#top"><img src="assets/img/logo.png" alt="logo" height="48" width="75"></a>
+        <ul>
+            <li class="navButton"><a href="#detailsSection">Details</a></li>
+            <li class="navButton"><a href="#speakerSection">Speakers</a></li>
+            <li class="navButton"><a href="#gallerySection">Gallery</a></li>
+            <li class="navButton"><a href="#scheduleSection">Schedule</a></li>
+            <li class="navButton"><a href="#testimonialSection">Testimonials</a></li>
+            <li class="navButton"><a href="#locationSection">Location</a></li>
+            <li class="navButton"><a href="assignment2-reflection.html">Reflection</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div>
+            <img src="assets/img/logo.png" alt="logo" height="192" width="300">     
+            <h1>Welcome to WEBDEVCON25</h1>
+            <h3>Where <em>passion</em> meets <em>innovation</em></h3>
+        </div>
+    </header> 
+    <main>
+            <div id="detailsSection">
+                <article>
+                    <h2>What can you expect?</h2>
+                    <p>WebDevCon returns to bring together IT professionals, students, and open source enthusiasts 
+                        in Toronto, Ontario on May <time datetime="2025-05-05">5th</time> - <time datetime="2025-05-07">7th</time>, 2025. 
+                        Join interactive sessions and lectures covering web design and development, cybersecurity, 
+                        artifical intelligence, the developer experience, and more.</p>
+                </article>
+                <br>
+                <article>
+                    <h2>Interested in hosting a session?</h2>
+                    <p>Contact us for more information on hosting a session at WebDevCon:</p>
+                    <address>
+                        Email us at <a href="mailto:webmaster@webdevcon.com">webmaster@webdevcon.com</a><br>
+                        Give us a call at <a href="416-123-4567">(416) 123-4567</a>
+                    </address>
+                </article>
+            </div>
+        <section id="speakerSection">
+            <h2 class="sectionTitle">Meet the Hosts</h2>
+            <br>
+            <div class="wrapper3">
+                <figure>
+                    <img class="speakerPic" src="assets/img/portrait1.jpg" alt="portrait" height="320" width="213">
+                    <h2 class="speakerName">Karen Lee</h2>
+                    <h3 class="speakerJob">User Experience Design Manager</h3>
+                    <p class="speakerBio">Lorem ipsum odor amet, consectetuer adipiscing elit. Euismod faucibus quisque vitae eros lacinia arcu, ac augue platea. Hendrerit justo curae ut id; auctor nam sollicitudin! Aenean habitant varius ornare euismod aenean quis sem.</p>
+                </figure>
+    
+                <figure>
+                    <img class="speakerPic" src="assets/img/portrait2.jpg" alt="portrait" height="320" width="213">
+                    <h2 class="speakerName">Judah Smith</h2>
+                    <h3 class="speakerJob">Senior Information Security Analyst</h3>
+                    <p class="speakerBio">Lorem ipsum odor amet, consectetuer adipiscing elit. Euismod faucibus quisque vitae eros lacinia arcu, ac augue platea. Hendrerit justo curae ut id; auctor nam sollicitudin! Aenean habitant varius ornare euismod aenean quis sem.</p>
+                </figure>
+    
+                <figure>
+                    <img class="speakerPic" src="assets/img/portrait3.jpg" alt="portrait" height="320" width="213">
+                    <h2 class="speakerName">Nicolas Jean</h2>
+                    <h3 class="speakerJob">Chief Artificial Intelligence Officer</h3>
+                    <p class="speakerBio">Lorem ipsum odor amet, consectetuer adipiscing elit. Euismod faucibus quisque vitae eros lacinia arcu, ac augue platea. Hendrerit justo curae ut id; auctor nam sollicitudin! Aenean habitant varius ornare euismod aenean quis sem.</p>
+                </figure>
+            </div>
+
+        </section>
+
+        <section id="gallerySection">
+            <h2 class="sectionTitle">Past Experiences</h2>
+            <br>
+            <div class="wrapper4">
+                <figure>
+                    <a href="assets/img/meeting1.jpg" target="_blank">
+                        <img src="assets/img/meeting1.jpg" alt="meeting" height="213" width="320">
+                    </a>
+                    <figcaption>John Lee presenting his session</figcaption>
+                </figure>
+                <figure>
+                    <a href="assets/img/meeting2.jpg" target="_blank">
+                        <img src="assets/img/meeting2.jpg" alt="meeting" height="213" width="320">
+                    </a>
+                    <figcaption>Emily Smith is excited to get started</figcaption>
+                </figure>
+                <figure>
+                    <a href="assets/img/meeting3.jpg" target="_blank">
+                        <img src="assets/img/meeting3.jpg" alt="meeting" height="213" width="320">
+                    </a>
+                    <figcaption>The audience has started to arrive</figcaption>
+                </figure>
+                <figure>
+                    <a href="assets/img/meeting4.jpg" target="_blank">
+                        <img src="assets/img/meeting4.jpg" alt="meeting" height="213" width="320">
+                    </a>
+                    <figcaption>This session is in full swing</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="scheduleSection">
+            <h2 class="sectionTitle">Explore our Sessions</h2>
+            <br>
+            <div class="wrapper3">
+                <ul class="scheduleBox">
+                    <li class="hallTitle">Hall A</li>
+                    <li class="sessionTitle">Staying Secure in an Unsecure World</li>
+                    <li class="sessionInfo">Advanced threat detection techniques, the latest ransomware evolution, and cutting-edge research on machine learning.</li>
+                    <li class="sessionTime">Starts: <time datetime="2025-05-05 13:00">May 5, 2025 at 1:00pm</time> for a <br><time datetime="PT2H00M"> 2 hour session</time></li>
+                </ul>
+                <ul class="scheduleBox">
+                    <li class="hallTitle">Hall B</li>
+                    <li class="sessionTitle">UX & Design</li>
+                    <li class="sessionInfo">A showcase of the latest UX and design research. Starting with planning and conducting, to analysis and the implementation of UX insights.</li>
+                    <li class="sessionTime">Starts: <time datetime="2025-05-05 12:00">May 6, 2025 at 12:00pm</time> for a <br><time datetime="PT2H00M"> 2 hour session</time></li>
+                </ul>
+                <ul class="scheduleBox">
+                    <li class="hallTitle">Hall C</li>
+                    <li class="sessionTitle">Artifical Intelligence</li>
+                    <li class="sessionInfo">How leadership can leverage and transform an organization with AI, and the effects of AI on the career development of your team.</li>
+                    <li class="sessionTime">Starts: <time datetime="2025-05-05 14:00">May 7, 2025 at 2:00pm</time> for a <br><time datetime="PT2H00M"> 2 hour session</time></li>
+                </ul>
+            </div>
+        </section>
+
+        <div id="testimonialSection">
+            <div class="reviewBox">
+                <blockquote>
+                    <p class="reviewQuote">"I learned so many invaluable skills while attending, I can't recommend this enough."</p>
+                </blockquote>
+                <p><em>WebDevCon Attendee</em></p>
+            </div>
+
+            <div class="reviewBox">
+                <blockquote>
+                    <p class="reviewQuote">"I was able to make some connections which helped me get an opportunity for a new career."</p>
+                </blockquote>
+                <p><em>WebDevCon Attendee</em></p>
+            </div>
+
+            <div class="reviewBox">
+                <blockquote>
+                    <p class="reviewQuote">"This event is a must-see for any IT professional interested in Web Development."</p>
+                </blockquote>
+                <p><em>WebDevCon Attendee</em></p>
+            </div>
+        </div>
+
+        <section id="locationSection">
+            <h2 class="sectionTitle">How to get there</h2>
+            <address>
+                Metro Toronto Convention Centre <br>
+                255 Front St W <br>
+                Toronto, Ontario <br>
+                M5V 2W6 <br>    
+            </address>
+            <br>
+            <h2>Directions</h2>
+            <h3>From Union Station</h3>
+            <ol>
+                <li>Exit the building towards Front Street</li>
+                <li>Turn left onto Front Street</li>
+                <li>Walk west 450m on Front Street to the entrance of the North Building</li>
+                <li>Access the SkyWalk to enter the South Building, if necessary</li>
+            </ol>
+            <br>
+            <h3>From Billy Bishop Airport</h3>
+            <ol>
+                <li>Head northwest on Eireann Quay</li>
+                <li>For the South Building, turn east on Lakeshore Blvd. W to Rees St.</li>
+                <li>Continue onto Bathurst St.</li>
+                <li>Turn right onto Lakeshore Blvd. W.</li>
+                <li>Continue straight to stay on Lakeshore Blvd. W.</li>
+                <li>Slight left toward Rees St.</li>
+                <li>Use any lane to turn left onto Rees St.</li>
+                <li>Turn right onto Bremner Blvd.</li>
+                <li>Turn left, and the Centre will be on the right</li>
+            </ol>   
+            <div class="mapBox">     
+                <iframe title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.2102437650965!2d-79.38924792339284!3d43.64379395303857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d6785ffb55%3A0x4209e1f8fd986202!2sMetro%20Toronto%20Convention%20Centre!5e0!3m2!1sen!2sca!4v1730059974807!5m2!1sen!2sca" width="650" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2024&copy; by Connor Ogilvy</p>
+        <script src=https://my.gblearn.com/js/loadscript.js></script>
+    </footer>
+    
+</body>
