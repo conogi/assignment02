@@ -74,7 +74,7 @@ html, body {
 
 header {
     margin-top: 80px;
-    background-image: url("assets/img/headerbg.jpg");
+    background-image: url("../img/headerbg.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: #23B5D3;
